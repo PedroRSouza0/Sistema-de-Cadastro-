@@ -1,0 +1,10 @@
+Total Cadastrados : 1
+Nome: pedro
+Email: pedrorsouzaa032@gmail.com
+Senha: gincana@2
+
+Total Cadastrados : 1
+Nome: Douglas
+Email: douglasnoizdasilva@juniorbarranquilha.com
+Senha: ighostdowncool
+

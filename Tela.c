@@ -9,3 +9,12 @@ void tela(void){
     printf("[3] - Sair\n");
     printf("=======================================\n");
 }
+
+void telaLogado(){
+    printf("=================================\n");
+    printf("        Sistema de Cadastro      \n");
+    printf("\n                               \n");
+    printf("Voce esta logado!\n");
+    printf("Em breve melhorias, Obrigado por usar o programa!\n");
+    printf("Este programa foi feito com o intuito de estudo!\n");
+}

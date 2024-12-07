@@ -28,13 +28,14 @@ while(true){
             Sleep(2000);
             break; //Força a saída do Switch case
         default:
-            printf("Digite uma opção válida\n");
+            printf("Por favor, digite uma opção valida\n");
             break;    
 
     }
     if(opcao == 3)
         break; // Força a saída do loop
-}   
+}
+
     printf("Programa Encerrado\n");
     return 0;
 }
