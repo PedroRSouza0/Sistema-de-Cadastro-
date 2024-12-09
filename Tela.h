@@ -17,4 +17,5 @@ void telaLogado(){
     printf("Voce esta logado!\n");
     printf("Em breve melhorias, Obrigado por usar o programa!\n");
     printf("Este programa foi feito com o intuito de estudo!\n");
+    printf("==================================\n");
 }

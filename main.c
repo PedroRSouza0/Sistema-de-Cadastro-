@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <windows.h>
-#include "Tela.c"
-#include "Cadastrar.c"
-#include "Login.c"
+#include "Tela.h"
+#include "Cadastrar.h"
+#include "Login.h"
 
 int main(void){
     int opcao;
@@ -22,7 +22,10 @@ while(true){
             break;
         case 2:
             system("cls");
-            Login();
+            if (Login()){
+                telaLogado();}
+            else   
+                printf("Falha no login, tente novamente\n");    
             break;
         case 3:
             system("cls");
