@@ -3,6 +3,7 @@
 #include <windows.h>
 #include "Tela.c"
 #include "Cadastrar.c"
+#include "Login.c"
 
 int main(void){
     int opcao;
@@ -20,6 +21,8 @@ while(true){
             CadastrarUsuario();
             break;
         case 2:
+            system("cls");
+            Login();
             break;
         case 3:
             system("cls");

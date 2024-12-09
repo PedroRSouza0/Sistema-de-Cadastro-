@@ -8,3 +8,13 @@ Nome: Douglas
 Email: douglasnoizdasilva@juniorbarranquilha.com
 Senha: ighostdowncool
 
+Total Cadastrados : 1
+Nome: pedro
+Email: pedrosouza@gmail.com
+Senha: 123456
+
+Total Cadastrados : 2
+Nome: and
+Email: pedrosouza@gmail.com
+Senha: 123456
+
