@@ -4,6 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <conio.h>
+#include <stdbool.h>
 
 #define MAX_email 100
 #define MAX_senha 100
@@ -37,7 +38,7 @@ while(1){
 
 }
 
-void SalvarUsuarioEmArquivo(Usuario usuario, int total_usuarios) {
+bool SalvarUsuarioEmArquivo(Usuario usuario, int total_usuarios) {
     FILE *arquivo = fopen("usuarios.txt", "a"); // Abre o arquivo em modo de adição
 
     if (arquivo == NULL) {
