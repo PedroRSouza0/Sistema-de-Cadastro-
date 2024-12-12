@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void tela(void){
+void Tela(void){
     printf("=======================================\n");
     printf("           Sistema de Cadastro         \n");
     printf("\n               ESCOLHA               \n");
@@ -10,7 +10,7 @@ void tela(void){
     printf("=======================================\n");
 }
 
-void telaLogado(){
+void TelaLogado(){
     printf("=================================\n");
     printf("        Sistema de Cadastro      \n");
     printf("\n                               \n");

@@ -1,16 +1,15 @@
-#include "Cadastrar.c"
-#include "Tela.c"
+#include "Cadastrar.h"
+#include "Tela.h"
 #include <stdbool.h>
 
 
-bool Login(){
-    Usuario usuario;
+bool Login(void){
     //Abre o arquivo
     FILE *arquivo =  fopen("usuarios.txt", "r");
 
     if(arquivo == NULL){
         printf("Erro ao abrir o arquivo, Tente novamente\n");
-        return;
+        return 0;
     }
 
     char EmailLogin[MAX_email], SenhaLogin[MAX_senha]; // Variaveis de Entrada
@@ -33,7 +32,7 @@ bool Login(){
 
     // Verifica se o login foi bem sucedido 
     if(Login){
-        printf("Logado com sucesso! Seja bem vindo!\n", usuario.nome);
+        printf("Logado com sucesso! Seja bem vindo!\n");
         return true;
     }else{
         printf("Falha no login, email ou senha incorretos\n");

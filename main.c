@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <windows.h>
 #include "Tela.h"
-#include "Cadastrar.h"
+#include "Cadastrar.c"
 #include "Login.h"
 
 int main(void){
