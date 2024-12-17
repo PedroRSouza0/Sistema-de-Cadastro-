@@ -1,5 +1,5 @@
-#include "Cadastrar.h"
-#include "Tela.h"
+#include "Cadastrar.c"
+#include "Tela.c"
 #include <stdbool.h>
 
 
