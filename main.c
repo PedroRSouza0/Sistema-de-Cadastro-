@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <windows.h>
-#include "Tela.h"
+#include "Tela.c"
 #include "Cadastrar.c"
-#include "Login.h"
+#include "Login.c"
 
 int main(void){
     int opcao;
