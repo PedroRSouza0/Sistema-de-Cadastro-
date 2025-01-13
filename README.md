@@ -1,4 +1,4 @@
-# Sistema de Cadastro em Linguagem C
+# Sistema de Cadastro em C
 ## Sistema de Cadastro feito em Linguagem C com o objetivo de praticar e desenvolver lógica de programação na construção de um projeto. 
 ### Funcionalidades Iniciais (Levantadas no dia 03/12/2024):
 1. Cadastrar novo usuario
